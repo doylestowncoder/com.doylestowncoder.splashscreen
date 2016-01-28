@@ -21,15 +21,13 @@
 
 This plugin displays and hides a splash screen during application launch.
 
-:warning: Report issues on the [Apache Cordova issue tracker](https://issues.apache.org/jira/issues/?jql=project%20%3D%20CB%20AND%20status%20in%20%28Open%2C%20%22In%20Progress%22%2C%20Reopened%29%20AND%20resolution%20%3D%20Unresolved%20AND%20component%20%3D%20%22Plugin%20Splashscreen%22%20ORDER%20BY%20priority%20DESC%2C%20summary%20ASC%2C%20updatedDate%20DESC)
-
 ## Installation
 
-    // npm hosted (new) id
-    cordova plugin add cordova-plugin-splashscreen
+    // Installation using Cordova
+    cordova plugin add https://github.com/doylestowncoder/cordova-plugin-splashscreen.git
 
-    // you may also install directly from this repo
-    cordova plugin add https://github.com/apache/cordova-plugin-splashscreen.git
+    // Installation using Ionic Framework
+    ionic plugin add https://github.com/doylestowncoder/cordova-plugin-splashscreen.git
 
 ## Supported Platforms
 
@@ -45,6 +43,10 @@ This plugin displays and hides a splash screen during application launch.
 ## Preferences
 
 #### config.xml
+
+-  __TopActivityIndicator__ (string). The setting is for iOS only. This indicates which spinner to use.  Valid settings are whiteLarge, white, and gray
+
+        <preference name="TopActivityIndicator" value="whiteLarge" />
 
 -  __SplashScreen__ (string). The resource name which is used for the displaying splash screen. Different platforms use values for this.
 

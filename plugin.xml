@@ -22,7 +22,7 @@
            id="cordova-plugin-splashscreen"
       version="3.1.1-dev">
     <name>Splashscreen</name>
-    <description>Cordova Splashscreen Plugin</description>
+    <description>Doylestown Coder Splashscreen Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,splashscreen</keywords>
     <repo>https://git-wip-us.apache.org/repos/asf/cordova-plugin-splashscreen.git</repo>
