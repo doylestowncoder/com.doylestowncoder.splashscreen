@@ -17,7 +17,7 @@
 #         under the License.
 -->
 
-# cordova-plugin-splashscreen
+# com.doylestowncoder.splashscreen
 
 This plugin displays and hides a splash screen during application launch.
 
